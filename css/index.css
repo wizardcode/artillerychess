@@ -1,0 +1,40 @@
+#contain {
+	padding: 80px;
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+	position: relative;
+	background-image: url(../img/back3.jpg);
+	background-size: 800px 800px;
+}
+
+#contain .back {
+	width: 125px;
+	height: 125px;
+	float: left;
+	border: 2px dashed #ffffff;
+}
+
+.item {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background-image: url(../img/bing100.png);
+	position: absolute;
+}
+
+.buttom {
+	width: 60px;
+	height: 60px;
+	background-color: #FAEBD7;
+	left: 30px;
+	top: 30px;
+	border-radius: 30px;
+	opacity: 0.2;
+	position: absolute;
+}
+
+.choose {
+	/*border: 2px dotted #FFFFFF;*/
+	box-shadow: 0px 0px 10px 10px #FFFFFF;
+}
